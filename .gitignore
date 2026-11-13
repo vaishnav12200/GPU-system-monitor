@@ -1,0 +1,54 @@
+# Build outputs
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+compile_commands.json
+_deps/
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.lib
+*.dll
+*.exe
+*.out
+*.d
+
+# Qt
+*.pro.user*
+*.autosave
+*.qm
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*_autogen/
+.qmake.stash
+CMakeLists.txt.user*
+
+# IDEs / editors
+.vscode/
+.idea/
+.vs/
+*.swp
+*~
+.cache/
+.clangd
+
+# Misc
+core
+*.log
+.DS_Store
